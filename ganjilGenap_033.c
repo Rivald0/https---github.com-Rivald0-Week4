@@ -1,9 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main (int argc, char * argv[])
 {
-    int x = atoi(argv[1]);
+    //Kamus
+    int x;
+    //algoritma
+    printf("Masukkan Sebuah Bilangan Genap: ");
+    scanf ("%d", &x);
     if (x%2==0)
     {
         printf("%d bilangan genap\n", x);
@@ -13,6 +16,6 @@ int main (int argc, char * argv[])
         printf("%d bilangan ganjil\n", x);
     }
     
-    getchar();
+    getch();
     return 0;
 }
