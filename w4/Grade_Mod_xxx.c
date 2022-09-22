@@ -5,7 +5,7 @@
 int main (int argc , char *argv[])
 {
 
-	float x = atoi(argv[1]);
+	float x = atof(argv[1]);
 
     char ch[1];
 
