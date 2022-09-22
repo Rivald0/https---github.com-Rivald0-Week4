@@ -1,3 +1,10 @@
+/*
+Nama : Rivaldo Y.G Butarbutar
+NIM : 13322033 
+Deskripsi : Menentukan Bilangan ganjil dan genap dengan menggunakan if.
+Tanggal : 21 September 2022
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
